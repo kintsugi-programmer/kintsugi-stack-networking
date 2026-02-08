@@ -79,7 +79,7 @@ flowchart LR
     *   **Example**: Connecting Bluetooth devices.
 2.  **LAN (Local Area Network)**
     *   A privately owned network operating within and nearby a single building (home, office, factory).
-    *   ![alt text](assets/images/networking/image-5.webp)
+    *   ![alt text](images/image-5.webp)
     *   Widely used to connect computers/laptops and consumer electronics.
     *   Enables sharing of resources (printers, fax machines) and information exchange.
     *   **Enterprise Networks**: LANs used by companies or organizations.
@@ -97,7 +97,7 @@ flowchart LR
     *   Connects the globe using satellites.
     *   Called the Network of WANs.
 
-![alt text](assets/images/networking/image-3.webp)
+![alt text](images/image-3.webp)
 
 ---
 
@@ -108,7 +108,7 @@ A **VPN** is a private WAN built on the internet.
 
 *   Allows creation of a **secured tunnel** (protected network) between different networks using the internet (public network).
 *   Enables clients to connect to an organization’s network remotely.
-*   ![alt text](assets/images/networking/image-6.webp)
+*   ![alt text](images/image-6.webp)
 
 ### Advantages
 *   Connects offices in different geographical locations remotely.
@@ -149,7 +149,7 @@ flowchart TD
 
 ### Nodes and Links
 
-![alt text](assets/images/networking/image-8.webp)
+![alt text](images/image-8.webp)
 
 *   **Node**: Any communicating device in a network.
     *   Point of intersection in a network.
@@ -223,7 +223,7 @@ Classes are based on the first octet and the number of hosts supported.
 ### Subnet
 
 *   **Definition**: A network inside a network achieved by **subnetting**.
-*   ![alt text](assets/images/networking/image-7.webp)
+*   ![alt text](images/image-7.webp)
 *   **Purpose**:
     *   Divides a network into subnets.
     *   Higher routing efficiency.
@@ -281,7 +281,7 @@ Compressed version of the OSI model with **4 layers**.
 *   Developed by US DoD in the 1960s.
 *   Named after **TCP** (Transmission Control Protocol) and **IP** (Internet Protocol).
 
-![alt text](assets/images/networking/image-10.webp)
+![alt text](images/image-10.webp)
 
 #### The 4 Layers
 
@@ -314,7 +314,7 @@ flowchart TB
 
 **Note**: The Presentation and Session layers from OSI are not present in the TCP/IP model.
 
-![alt text](assets/images/networking/image-1.webp)
+![alt text](images/image-1.webp)
 
 ---
 
@@ -379,7 +379,7 @@ sequenceDiagram
 | Error checking mechanism | No error checking mechanism |
 | **Protocols**: HTTP, FTP, Telnet, SMTP, HTTPS | **Protocols**: DNS, RIP, SNMP, RTP, BOOTP, TFTP, NIP |
 
-![alt text](assets/images/networking/image-2.webp)
+![alt text](images/image-2.webp)
 
 ### ICMP (Internet Control Message Protocol)
 *   Network layer protocol for **error handling**.
@@ -395,7 +395,7 @@ sequenceDiagram
 
 ### ARP (Address Resolution Protocol)
 *   Network-level protocol.
-*   ![alt text](assets/images/networking/image-4.webp)
+*   ![alt text](images/image-4.webp)
 *   Converts **Logical Address (IP)** to **Physical Address (MAC)**.
 *   Used to get MAC address of devices for local network communication.
 
@@ -452,7 +452,7 @@ sequenceDiagram
 
 ### Firewall
 *   Network security system monitoring incoming/outgoing traffic.
-*   ![alt text](assets/images/networking/image-9.webp)
+*   ![alt text](images/image-9.webp)
 *   Blocks traffic based on security policies.
 *   Acts as a **wall** between internet (public) and networking devices (private).
 *   Can be hardware, software, or both.
