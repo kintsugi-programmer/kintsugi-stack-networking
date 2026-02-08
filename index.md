@@ -21,7 +21,7 @@ keywords:
 
 # Networking
 
-![alt text](assets/images/networking/image.webp)
+![alt text](images/image.webp)
 
 <div style="position:relative;width:100%;padding-bottom:56.25%;height:0;">
   <iframe
