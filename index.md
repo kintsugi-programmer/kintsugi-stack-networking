@@ -1,5 +1,5 @@
 ---
-title: Computer Networking - Complete Guide from Basics to Advanced
+title: Networking
 description: Master computer networking from first principles. Learn PAN, LAN, WAN, VPN, OSI & TCP/IP models, IP addressing, protocols, DNS, HTTP, TCP vs UDP, networking devices, and real-world browser flow – perfect for interviews and backend engineers.
 keywords:
   - computer networking
