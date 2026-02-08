@@ -21,7 +21,7 @@ keywords:
 
 # Networking
 
-![alt text](images/image.webp)
+![alt text](assets/images/networking/image.webp)
 
 <div style="position:relative;width:100%;padding-bottom:56.25%;height:0;">
   <iframe
@@ -40,14 +40,15 @@ keywords:
 **Definition**: According to Merriam Webster, a **Network** is usually an informally interconnected group or association of different entities (e.g., a person, computers, radio stations).
 
 **Computer Network**: A system of peripherals or computers interconnected with each other.
-- Has a standard communication channel established between them.
-- Used to exchange different types of information and data.
-- **Example**: Dominos has a network of 1232 branches across India.
+
+*   Has a standard communication channel established between them.
+*   Used to exchange different types of information and data.
+*   **Example**: Dominos has a network of 1232 branches across India.
 
 ### Importance of Computer Networks
-- connects all different network-enabled devices.
-- Enables data and information sharing between devices.
-- Considered a core part of technical interviews and daily life.
+*   connects all different network-enabled devices.
+*   Enables data and information sharing between devices.
+*   Considered a core part of technical interviews and daily life.
 
 ### Network Classifications
 Network types are classified based on the area of distribution.
@@ -78,7 +79,7 @@ flowchart LR
     *   **Example**: Connecting Bluetooth devices.
 2.  **LAN (Local Area Network)**
     *   A privately owned network operating within and nearby a single building (home, office, factory).
-    *   ![alt text](images/image-5.webp)
+    *   ![alt text](assets/images/networking/image-5.webp)
     *   Widely used to connect computers/laptops and consumer electronics.
     *   Enables sharing of resources (printers, fax machines) and information exchange.
     *   **Enterprise Networks**: LANs used by companies or organizations.
@@ -96,7 +97,7 @@ flowchart LR
     *   Connects the globe using satellites.
     *   Called the Network of WANs.
 
-![alt text](images/image-3.webp)
+![alt text](assets/images/networking/image-3.webp)
 
 ---
 
@@ -104,16 +105,17 @@ flowchart LR
 
 ### Definition
 A **VPN** is a private WAN built on the internet.
-- Allows creation of a **secured tunnel** (protected network) between different networks using the internet (public network).
-- Enables clients to connect to an organization’s network remotely.
-- ![alt text](images/image-6.webp)
+
+*   Allows creation of a **secured tunnel** (protected network) between different networks using the internet (public network).
+*   Enables clients to connect to an organization’s network remotely.
+*   ![alt text](assets/images/networking/image-6.webp)
 
 ### Advantages
-- Connects offices in different geographical locations remotely.
-- **Cheaper** compared to WAN connections.
-- Used for **secure transactions** and confidential data transfer between multiple offices.
-- Keeps organization information **secured** against threats or intrusions via virtualization.
-- **Encrypts** internet traffic and disguises online identity.
+*   Connects offices in different geographical locations remotely.
+*   **Cheaper** compared to WAN connections.
+*   Used for **secure transactions** and confidential data transfer between multiple offices.
+*   Keeps organization information **secured** against threats or intrusions via virtualization.
+*   **Encrypts** internet traffic and disguises online identity.
 
 ### Types of VPN
 1.  **Access VPN**
@@ -146,7 +148,9 @@ flowchart TD
 ## Network Fundamentals
 
 ### Nodes and Links
-![alt text](images/image-8.webp)
+
+![alt text](assets/images/networking/image-8.webp)
+
 *   **Node**: Any communicating device in a network.
     *   Point of intersection in a network.
     *   Can send/receive data.
@@ -187,6 +191,7 @@ flowchart TD
 ## IP Addressing
 
 ### IPv4 Address
+
 *   **Definition**: A 32-bit dynamic address of a node in the network.
 *   **Structure**: 4 octets of 8-bits each (values up to 255).
 
@@ -211,12 +216,14 @@ Classes are based on the first octet and the number of hosts supported.
 | **C** | 192.168.0.0 | 192.168.255.255 |
 
 **Special Address**: Range `127.0.0.1` to `127.255.255.255`.
-- Known as **loopback addresses**.
-- Used for network testing.
+
+*   Known as **loopback addresses**.
+*   Used for network testing.
 
 ### Subnet
+
 *   **Definition**: A network inside a network achieved by **subnetting**.
-*   ![alt text](images/image-7.webp)
+*   ![alt text](assets/images/networking/image-7.webp)
 *   **Purpose**:
     *   Divides a network into subnets.
     *   Higher routing efficiency.
@@ -229,13 +236,14 @@ Classes are based on the first octet and the number of hosts supported.
 
 ### OSI Reference Model
 **Open System Interconnections (OSI)** is a network architecture model based on ISO standards.
-- Deals with connecting systems open for communication.
-- Has **seven layers**.
+
+*   Deals with connecting systems open for communication.
+*   Has **seven layers**.
 
 #### Principles
-- Create a new layer if a different abstraction is needed.
-- Each layer has a well-defined function.
-- Functions chosen based on internationally standardized protocols.
+*   Create a new layer if a different abstraction is needed.
+*   Each layer has a well-defined function.
+*   Functions chosen based on internationally standardized protocols.
 
 #### The 7 Layers
 1.  **Physical** (Hardware Layer)
@@ -269,15 +277,18 @@ flowchart TB
 
 ### TCP/IP Reference Model
 Compressed version of the OSI model with **4 layers**.
-- Developed by US DoD in the 1960s.
-- ![alt text](images/image-10.webp)
-- Named after **TCP** (Transmission Control Protocol) and **IP** (Internet Protocol).
+
+*   Developed by US DoD in the 1960s.
+*   Named after **TCP** (Transmission Control Protocol) and **IP** (Internet Protocol).
+
+![alt text](assets/images/networking/image-10.webp)
 
 #### The 4 Layers
-1.  **Link Layer**: Decides which links (serial lines, Ethernet) to use to meet connectionless internet layer needs.
-2.  **Internet Layer**: Most important layer holding architecture together. Delivers IP packets to destinations.
-3.  **Transport Layer**: Enables peer entities to carry on a conversation (similar to OSI Transport).
-4.  **Application Layer**: Contains all higher-level protocols.
+
+*   **Link Layer**: Decides which links (serial lines, Ethernet) to use to meet connectionless internet layer needs.
+*   **Internet Layer**: Most important layer holding architecture together. Delivers IP packets to destinations.
+*   **Transport Layer**: Enables peer entities to carry on a conversation (similar to OSI Transport).
+*   **Application Layer**: Contains all higher-level protocols.
 
 ```mermaid
 flowchart TB
@@ -303,7 +314,7 @@ flowchart TB
 
 **Note**: The Presentation and Session layers from OSI are not present in the TCP/IP model.
 
-![alt text](images/image-1.webp)
+![alt text](assets/images/networking/image-1.webp)
 
 ---
 
@@ -368,7 +379,7 @@ sequenceDiagram
 | Error checking mechanism | No error checking mechanism |
 | **Protocols**: HTTP, FTP, Telnet, SMTP, HTTPS | **Protocols**: DNS, RIP, SNMP, RTP, BOOTP, TFTP, NIP |
 
-![alt text](images/image-2.webp)
+![alt text](assets/images/networking/image-2.webp)
 
 ### ICMP (Internet Control Message Protocol)
 *   Network layer protocol for **error handling**.
@@ -384,7 +395,7 @@ sequenceDiagram
 
 ### ARP (Address Resolution Protocol)
 *   Network-level protocol.
-*   ![alt text](images/image-4.webp)
+*   ![alt text](assets/images/networking/image-4.webp)
 *   Converts **Logical Address (IP)** to **Physical Address (MAC)**.
 *   Used to get MAC address of devices for local network communication.
 
@@ -441,7 +452,7 @@ sequenceDiagram
 
 ### Firewall
 *   Network security system monitoring incoming/outgoing traffic.
-*   ![alt text](images/image-9.webp)
+*   ![alt text](assets/images/networking/image-9.webp)
 *   Blocks traffic based on security policies.
 *   Acts as a **wall** between internet (public) and networking devices (private).
 *   Can be hardware, software, or both.
@@ -470,20 +481,22 @@ sequenceDiagram
     *   Use: DHCP and ARP in local network.
 
 ### Browser Process (Entering google.com)
+
 Steps followed when entering a URL:
-1.  **Check Cache**: Browser checks its cache for fresh content.
-2.  **DNS Lookup**:
+
+*   **Check Cache**: Browser checks its cache for fresh content.
+*   **DNS Lookup**:
     *   If IP not in cache (browser/OS), request OS to do DNS lookup.
     *   Uses **UDP** to get IP from DNS server.
-3.  **TCP Connection**:
+*   **TCP Connection**:
     *   Establish new connection between browser and server.
     *   Uses **three-way handshaking**.
-4.  **HTTP Request**: Sent to server using TCP connection.
-5.  **HTTP Response**: Web server handles request and sends response.
-6.  **Process Response**:
+*   **HTTP Request**: Sent to server using TCP connection.
+*   **HTTP Response**: Web server handles request and sends response.
+*   **Process Response**:
     *   Browser processes response.
     *   Closes TCP connection or reuses it.
-7.  **Cache & Render**:
+*   **Cache & Render**:
     *   Browser caches data if cacheable.
     *   Browser decodes and renders content.
 
